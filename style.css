@@ -33,4 +33,52 @@ header {
     width: 568px;
     height: 400px;
     margin-left: 100px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 120px;
+    text-align: center;
+    color: #B77647;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 5px;
+    text-align: center;
+    color: #8C7C6D;
+}
+
+p {
+    width: 515px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    margin: 32px 0 44px;
+}
+
+.section-button {
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #4C2A6C;
+    border-radius: 10px 30px 5px 30px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-button:hover {
+    width: 190px;
+    transition: all 0.3s ease;
 }
