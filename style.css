@@ -6,7 +6,7 @@
 }
 
 header {
-    margin: 20px 0 70px 60%;    
+    margin: 20px 0 70px 60%;
 }
 
 .top-link {
@@ -81,4 +81,17 @@ p {
 .section-button:hover {
     width: 190px;
     transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 1920px) {
+
+    header {
+        margin: 20px 0 60px 50%px;
+    }
+
+    .top-link {
+        line-height: 24px;
+        margin-right: 14px;
+    }
 }
